@@ -5,7 +5,7 @@
 
 html, body {
 
-  background: white;
+  background: darkgrey;
   margin: 20px;
   color: #3e4144;
   -webkit-font-smoothing: antialiased;
@@ -37,4 +37,16 @@ button:focus{
 
 .p-1 {
   padding: 1px;
+}
+
+.row{
+  display: flex;
+}
+.col{
+  flex-grow: 1;
+  margin: .625rem;
+}
+input{
+  display:block;
+  margin: .3125rem;
 }
